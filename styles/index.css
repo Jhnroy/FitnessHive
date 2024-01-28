@@ -1,0 +1,86 @@
+body, * {
+  background-color: #F5F5F5;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+  text-decoration: none;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: none;
+  margin-left: 50vh;
+  padding: 0 10px;
+}
+nav .nav-btn {
+  border: 2px solid black;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 15px;
+  color: black;
+  margin: 1vh;
+}
+
+#title {
+  background-color: #1D9BF0;
+  padding: 2vh;
+  border-radius: 10px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#title:hover {
+  transform: rotate(360deg);
+}
+
+.nav-btn:hover {
+  background-color: #1D9BF0;
+  transition: 1s;
+}
+
+main {
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+main .mainContainer {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+#imgMain {
+  width: 500px;
+  border-radius: 10px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#imgMain:hover {
+  width: 700px;
+  border-radius: 50px;
+  transform: rotate(360deg);
+}
+
+#welcomeNotes {
+  background-color: #1D9BF0;
+  padding: 10vh;
+}
+
+#mainQoutes {
+  margin-left: 5vh;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30vh;
+}
+footer #mainFooter {
+  background-color: #1D9BF0;
+  padding: 3vh;
+}/*# sourceMappingURL=index.css.map */
