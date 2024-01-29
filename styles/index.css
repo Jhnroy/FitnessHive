@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body, * {
   background-color: #F5F5F5;
   padding: 0;
@@ -158,6 +162,24 @@ main .mainContainer {
 
 #TurfZoneContainer #TurfZoneQuotes {
   text-align: justify;
+}
+
+#ImgFacilitiesCointainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#ImgFacilitiesCointainer .facilities-Img {
+  width: 500px;
+  border-radius: 10px;
 }
 
 footer {

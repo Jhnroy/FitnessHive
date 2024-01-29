@@ -3,6 +3,9 @@ $MainColor: #F5F5F5;
 $MainFont: roboto;
 $SecondaryColor: #1D9BF0;
 
+html{
+    scroll-behavior: smooth;
+}
 body, *{
     background-color: $MainColor;
     padding: 0;
@@ -11,7 +14,6 @@ body, *{
     font-family: $MainFont;
     text-decoration: none;
 }
-
 
 // Nav Section
 nav{
@@ -135,7 +137,18 @@ main{
     }
 }
 
-
+#ImgFacilitiesCointainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    
+    .facilities-Img{
+        width: 500px;
+        border-radius: 10px;
+    }
+}
 
 // Footer
 footer{
