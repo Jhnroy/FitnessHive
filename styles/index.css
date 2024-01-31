@@ -3,7 +3,7 @@ html {
 }
 
 body, * {
-  background-color: beige;
+  background-color: #FFFDD0;
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -188,6 +188,29 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+#fname {
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+#lname {
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+#country {
+  border-radius: 20px;
+}
+
+#barangay {
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+#subject {
+  border: 1px solid black;
+}
+
 input[type=submit] {
   background-color: #1D9BF0;
   border-radius: 20px;
@@ -199,6 +222,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #2fcd08;
+  color: black;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -218,6 +242,13 @@ input[type=submit]:hover {
   width: 50%;
   margin-top: 6px;
   padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.row {
+  background-color: #1D9BF0;
+  padding: 10vh;
 }
 
 .row:after {
