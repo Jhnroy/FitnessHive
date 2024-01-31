@@ -104,6 +104,8 @@ main .mainContainer {
 #welcomeNotes {
   background-color: #1D9BF0;
   padding: 10vh;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #mainQoutes {
@@ -244,6 +246,8 @@ input[type=submit]:hover {
   padding: 20px;
   border-radius: 10px;
   border: 1px solid black;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .row {
